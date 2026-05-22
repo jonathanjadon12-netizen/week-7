@@ -175,3 +175,91 @@ This project helps in understanding:
 ## Author
 
 Developed as a React practice and learning project.
+
+---
+
+# Task Manager
+
+Task Manager is a React-based application designed to help users track and manage their daily tasks efficiently. The project features interactive task tracking, a progress bar, task status categorization (total, completed, pending), validation on forms, and the ability to toggle and delete tasks.
+
+This project was built to practice state management, form validation using React Hook Form, and clean responsive UI styling using Tailwind CSS.
+
+## Features
+
+- Add new tasks via a validated form with custom validation rules
+- Real-time task statistics (Total, Done, Pending)
+- Dynamic progress bar showing the percentage of tasks completed
+- Mark tasks as completed or pending
+- Delete tasks from the list
+- Responsive, clean card-based UI designed with Tailwind CSS
+
+## Technologies Used
+
+- React (v19)
+- Vite
+- Tailwind CSS (v4)
+- React Hook Form (v7)
+- JavaScript
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Open the project folder
+
+```bash
+cd task-manager
+```
+
+3. Install project dependencies
+
+```bash
+npm install
+```
+
+4. Run the development server
+
+```bash
+npm run dev
+```
+
+5. Open the browser and visit:
+
+```bash
+http://localhost:5173
+```
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── AddTaskForm.jsx   # Form with validation to add a new task
+│   ├── TaskItem.jsx      # Individual task item displaying name and status
+│   ├── TaskList.jsx      # Component listing all task items
+│   └── TaskManager.jsx   # Parent component managing state and layout
+├── App.css
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+## Learning Objectives
+
+This project helps in understanding:
+
+- Form handling and validation with `react-hook-form`
+- Managing complex component state hierarchies
+- Passing state-modifier functions as props
+- Calculated state values derived from existing state (progress bar and status counts)
+- Advanced utility-first styling with Tailwind CSS v4
+
+## Author
+
+Developed as a React practice and learning project.
+
