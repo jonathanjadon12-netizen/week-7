@@ -13,7 +13,7 @@ function Footer() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
           </div>
-          <span className="font-semibold text-[#6B5E56]">SwiftStore © 2026. All rights reserved.</span>
+          <span className="font-semibold text-[#6B5E56]">Shoppe © 2026. All rights reserved.</span>
         </div>
 
         {/* Right Side: Links */}

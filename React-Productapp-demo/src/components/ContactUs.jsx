@@ -52,7 +52,7 @@ function ContactUs() {
               </div>
               <div>
                 <span className="block text-[10px] text-[#8E8076] uppercase font-bold tracking-wider">Email Support</span>
-                <span className="text-sm font-semibold text-[#2A2421]">support@swiftstore.com</span>
+                <span className="text-sm font-semibold text-[#2A2421]">support@shoppe.com</span>
               </div>
             </div>
 

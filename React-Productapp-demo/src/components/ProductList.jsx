@@ -50,7 +50,7 @@ function ProductsList() {
     return (
       <div className="flex-grow flex flex-col justify-center items-center py-32">
         <div className="w-16 h-16 border-4 border-[#D96B43]/20 border-t-[#D96B43] rounded-full animate-spin mb-6"></div>
-        <p className="text-xl font-medium text-[#8E8076] animate-pulse">Loading SwiftStore Catalog...</p>
+        <p className="text-xl font-medium text-[#8E8076] animate-pulse">Loading Shoppe Catalog...</p>
       </div>
     );
   }

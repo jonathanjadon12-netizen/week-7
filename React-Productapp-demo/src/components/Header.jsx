@@ -14,7 +14,7 @@ function Header() {
             </svg>
           </div>
           <span className="text-xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#D96B43] via-[#C25830] to-[#8C6239] group-hover:to-[#D96B43] transition-all duration-300">
-            SwiftStore
+            Shoppe
           </span>
         </NavLink>
 
